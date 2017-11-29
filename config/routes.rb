@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   get '/auth/failure' => 'sessions#failure'
   get 'condition' => 'condition#index'
   get 'treatment' => 'treatment#index'
+  get 'form' => 'form#index'
 end
